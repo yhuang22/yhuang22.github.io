@@ -4,6 +4,27 @@
         <title>Steve Huang</title>
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" href="css/style.css">
+        <script>
+            // if is already top, disable the button
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 1 || document.documentElement.scrollTop > 1) {
+                    document.getElementsByClassName("navbar")[0].style.padding = "5px 10px";
+                    if(document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                        document.getElementById("back_to_top").style.display = "block";
+                    }
+                } else {
+                    document.getElementsByClassName("navbar")[0].style.padding = "12px 10px";
+                    document.getElementById("back_to_top").style.display = "none";
+                }
+            }
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
     </head>
     <body lang="en">
         
@@ -43,14 +64,15 @@
         </div>
         
         <!-- End Header -->
-
+        <!-- back to top button -->
+        <button onclick="topFunction()" id="back_to_top" title="Go to top">Top</button>
         
         <!-- Start About Me -->
         
         <div class="about-me" id="aboutMe" style="border-bottom: 1px solid #191E22;">
             <div class="container">
                 <div class="image">
-                    <img src="images/about/about.jpg" width=100% height=60%>
+                    <img src="images/about/about.jpg" width=100% height=90%>
                 </div>
                 <div class="info ">
                     <h2>About Me</h2>
