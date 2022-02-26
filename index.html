@@ -31,39 +31,31 @@
         <!-- Start Header -->
         
         <div class="header">
-            
             <!-- Start Slider -->
-            
             <div class="slider">
                 <div class="intro">
                     <!-- Name on the website -->
                     <h2>Steve (Yongyuan) Huang</h2>
                 </div>
             </div>
-            
             <!-- End Slider -->
-            
             <!-- Start Navbar -->
-            
             <div class="navbar">
                 <div class="container">
-
                     <ul>
                         <li><a href="" class="active">Home</a></li>
                         <li><a href="#aboutMe">About Me</a></li>
                         <li><a href="#resume">CV</a></li>
                         <li><a href="#teaching">Teaching</a></li>
-                        <li><a href="#portofolio">Research/Activities</a></li>
+                        <li><a href="#research">Research/Activities</a></li>
                         <li><a href="#contactMe">Contact</a></li>
                     </ul>
                 </div>
             </div>
-            
             <!-- End Navbar -->
-            
         </div>
-        
         <!-- End Header -->
+
         <!-- back to top button -->
         <button onclick="topFunction()" id="back_to_top" title="Go to top">Top</button>
         
@@ -91,8 +83,12 @@
         <div class="resume" id="resume">
             <div class="container">
                 <h2>CV</h2>
-                <p>You can view my CV here, or</p>
-                <button>Download</button>
+                <p>You can view my CV
+                    <a href="images/yhuangcv.pdf" target="_blank">here</a>
+                        , or</p>
+                <a href="images/yhuangcv.pdf" download target="_blank">
+                    <button>Download</button>
+                </a>
             </div>
         </div>
         
@@ -100,107 +96,83 @@
         
         <!-- Start Teaching -->
         
-        <div class="my-education" id="teaching">
+        <div class="my-education" id="teaching" style="border-bottom: 1px solid #191E22;height:100%">
             <div class="container">
-                <div class="main fl-left">
-                    <h2>My Teaching Experience</h2>
-                    <p>I've worked these places as blabla</p>
-                    <p>something </p>
-                </div>
-                <div class="exp fl-left">
-                    <div class="certified">
-                        <h3>Teaching Assistant for CS131</h3>
-                        <span><strong>Boston University</strong> / June 2008 / May 2010</span><br>
-                        <hr>
-                        <p>some explanation</p>
+
+                    <div class="main fl-left">
+                        <h2>My Teaching Experience</h2>
+                        <p>I've worked in Boston University as a teaching assistant and grader for 3 years.</p>
+                        <!-- <p>something </p>-->
                     </div>
-                    <div class="certified">
-                        <h3>Teaching Assistant for CS</h3>
-                        <span><strong>Boston University</strong> / June 2006 / May 2008</span><br>
-                        <hr>
-                        <p>some thing</p>
+
+                    <div class="exp fl-left">
+                        <div class="certified">
+                            <h3>Teaching Assistant for CS131 (Discrete Mathematics)</h3>
+                            <span><strong>Boston University</strong> / Jan 2019 / May 2022</span><br>
+                            <hr>
+                            <p>Fall 2020, Spring 2021, Summer I 2021,
+                                Fall 2021. Instruct three hour-long weekly problem sessions,
+                                hold four hours of weekly office hours, design weekly discussion
+                                worksheets and problem sets, answer online Piazza questions,
+                                and grade exams.</p>
+                        </div>
+                        <div class="certified">
+                            <h3>Grader for Math Courses</h3>
+                            <span><strong>Boston University</strong> / Jan 2019 / May 2022</span><br>
+                            <hr>
+                            <p>Courses graded: Calculus I, II, & III, Math in Sustainability,
+                                Elementary Number Theory, Group Theory,
+                                and Mathematical Analysis</p>
+                        </div>
                     </div>
-                </div>
-                <div class="clean"></div>
-                <hr>
-                
-                <!-- Start My Research and Activities -->
-                
-                <div class="main fl-left">
-                    <h2>My Research Experience and Activities</h2>
-                    <p>something</p>
-                    <p>something </p>
-                </div>
-                <div class="exp fl-left">
-                    <div class="certified">
-                        <h3>Research name1</h3>
-                        <span><strong>ABC Company, Saskatoon</strong> / June 2011 - Present</span><br>
-                        <span>3 Years</span>
-                        <hr>
-                        <p>Research details</p>
-                    </div>
-                    <div class="certified">
-                        <h3>Research name2</h3>
-                        <span><strong>XYZ Company, Lethbridge</strong> / June 2006 / May 2009</span><br>
-                        <span>1 Years</span>
-                        <hr>
-                        <p>Research details</p>
-                    </div>
-                    <div class="certified">
-                        <h3>activity one</h3>
-                        <span><strong>The Company, Lethbridge</strong> / June 2007 / May 2008</span><br>
-                        <span>2 Years</span>
-                        <hr>
-                        <p>activity detail</p>
-                    </div>
-                </div>
-                
-                <!-- End My Research and Activities -->
-                
             </div>
         </div>
-        
-        <!-- End My Teaching / research and activities section -->
-        
-        <!-- Start Contact Me -->
-        
-        <div class="contact-me" id="contactMe">
-            <div class="container">
-                <div class="info fl-left">
-                    <h2>Contact</h2>
-                    <p>Feel free to reach out to me</p>
-                    <p>123 Street Name<br>Tiaret<br>SkSk Area</p>
-                    <p><strong>Email:</strong> me@email.com</p>
-                    <p><strong>Phone:</strong>213711112222</p>
+        <!-- End teaching -->
+
+        <!-- Start My Research and Activities -->
+        <div class="my-education" id="research">
+                <div class="container" style="border-bottom: 1px solid #191E22;height:100%;overflow-scrolling: auto">
+                    <div class="main fl-left" >
+                        <h2>My Research Experience and Activities</h2>
+                        <p>something</p>
+                    </div>
+                    <div class="exp fl-left">
+                        <div class="certified">
+                            <h3>PROMYS</h3>
+                            <span><strong>ABC Company, Saskatoon</strong> / June 2011 - Present</span><br>
+                            <span>3 Years</span>
+                            <hr>
+                            <p>Research details</p>
+                        </div>
+                        <div class="certified">
+                            <h3>BU Mathematical Association of America Chapter</h3>
+                            <span><strong>XYZ Company, Lethbridge</strong> / June 2006 / May 2009</span><br>
+                            <span>1 Years</span>
+                            <hr>
+                            <p>Research details</p>
+                        </div>
+                        <div class="certified">
+                            <h3>activity one</h3>
+                            <span><strong>The Company, Lethbridge</strong> / June 2007 / May 2008</span><br>
+                            <span>2 Years</span>
+                            <hr>
+                            <p>activity detail</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="form fl-left">
-                    <form>
-                        <label>Name <sup>*</sup></label>
-                        <input type="text" name="name">
-                        <label>Email Address <sup>*</sup></label>
-                        <input type="text" name="name">
-                        <label>Phone <sup>*</sup></label>
-                        <input type="text" name="name">
-                        <label>Message</label>
-                        <textarea></textarea>
-                        <input type="submit" value="Contact Me">
-                    </form>
-                </div>
+
             </div>
-        </div>
-        
-        <!-- End Contact Me -->
+        <!-- End My research and activities section -->
         
         <!-- Start Footer -->
         
-        <div class="footer">
+        <div class="footer" >
             <div class="container">
                 <p>Copyright &copy; 2022 Steve Huang</p>
                 <ul>
-                    <li><a href="https://www.facebook.com/HouariZegai" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-                    <li><a href="https://www.twitter.com/HouariZegai" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/HouariZegai" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
-                    <li><a href="https://www.youtube.com/HouariZegai" target="_blank"><i class="fa fa-youtube-square fa-2x"></i></a></li>
+                    <li><a href="mailto: yhuang22@bu.edu" target="_blank"><i class="fa fa-envelope-square fa-2x"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/yongyuanhuang/" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
+                    <li><a href="https://github.com/yhuang22" target="_blank"><i class="fa fa-github-square fa-2x"></i></a></li>
                 </ul>
             </div>
         </div>
