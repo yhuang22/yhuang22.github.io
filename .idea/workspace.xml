@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3de15e9c-3f5f-45e1-83b0-95134e5a006e" name="Changes" comment="" />
+    <list default="true" id="3de15e9c-3f5f-45e1-83b0-95134e5a006e" name="Changes" comment="fixed UCSD TA" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +35,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656707220595</updated>
-      <workItem from="1656707225245" duration="630000" />
+      <workItem from="1656707225245" duration="812000" />
     </task>
     <servers />
   </component>
